@@ -1,0 +1,17 @@
+{
+  "name": "products-cache-app",
+  "version": "1.0.0",
+  "description": "Layered Express product API with TTL caching",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1"
+  }
+}
